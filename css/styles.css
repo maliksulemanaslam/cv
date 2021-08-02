@@ -193,6 +193,7 @@ a:hover {
   background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   text-decoration: none;
 }
 
@@ -209,10 +210,13 @@ a:hover {
   width: 40%;
   margin: 20px auto 60px auto;
 }
+.footer-link{
+  font-size: 1.5rem;
+}
 
 .copyright{
   color: #EAF6F6;
-  font-size: 1rem;
+  font-size: 1.3rem;
   width: 30%;
   margin: 10px auto;
 }
