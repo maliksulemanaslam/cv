@@ -162,6 +162,7 @@ a:hover {
 }
 .MyImg{
   width: 15%;
+  border-radius: 100%;
 }
 .chillies-img{
   width: 25%;
