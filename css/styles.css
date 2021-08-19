@@ -11,6 +11,8 @@ h2 {
   font-size: 2.5rem;
   color: #66BFBF;
   font-weight: normal;
+  margin-top: 4%;
+  margin-bottom: 2%;
 }
 
 h3 {
@@ -48,10 +50,18 @@ a {
 a:hover {
   color: #EAF6F6;
 }
+.spinner-grow{
 
+}
+.sticky-top{
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
 .navbar {
   background-color: #E4F9F5;
-  ;
   position: relative;
   display: -ms-flexbox;
   display: flex;
@@ -61,22 +71,6 @@ a:hover {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 1.5rem 1rem;
-}
-
-.fixed-top {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-}
-
-.navbar-expand-lg {
-  -ms-flex-flow: row nowrap;
-  flex-flow: row nowrap;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
 }
 
 .navbar-nav {
@@ -88,7 +82,9 @@ a:hover {
   margin-bottom: 0;
   list-style: none;
 }
-
+.second{
+  visibility: hidden;
+}
 .ml-auto {
   margin-left: auto;
 }
@@ -162,12 +158,12 @@ a:hover {
 }
 .MyImg{
   width: 15%;
-  border-radius: 100%;
 }
 .chillies-img{
   width: 25%;
   float: left;
   margin-right: 25px;
+  margin-bottom: 45px;
 }
 
 
@@ -222,4 +218,27 @@ a:hover {
   font-size: 1.3rem;
   width: 30%;
   margin: 10px auto;
+}
+.smart-scroll{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.scrolled-down{
+   transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+   transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+@media (max-width:992px) {
+  .first{
+    visibility: hidden;
+  }
+  .second{
+    visibility: visible;
+
+  }
+
 }
