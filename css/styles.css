@@ -86,7 +86,12 @@ a:hover {
   margin-bottom: 0;
   list-style: none;
 }
-
+.navbar-toggler-icon{
+  border-style: groove;
+  border-color: cyan;
+  border-width: 3px;
+  border-radius: 0.25rem;
+}
 .second {
   visibility: hidden;
 }
