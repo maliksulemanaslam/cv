@@ -12,3 +12,7 @@ if ($('.smart-scroll').length > 0) { // check if element exists
         last_scroll_top = scroll_top;
     });
 }
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
