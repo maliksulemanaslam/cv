@@ -1,194 +1,63 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>Suleman Aslam</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-  <link rel="icon" href="favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 </head>
 
 <body>
-  <nav class="navbar smart-scroll navbar-expand-lg navbar-light">
-    <div class="container-fluid">
-      <div class="text-center">
-        <div class="spinner-grow first" role="status">
-          <span class="visually-hidden">Loading...</span>
-        </div>
-      </div>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav ml-auto">
-          <div class="text-center">
-            <div class="spinner-grow second" role="status">
-              <span class="visually-hidden">Loading...</span>
-            </div>
-          </div>
-          <a class="navbar-brand second" href="#">Suleman's Blog</a>
-          <li class="nav-item">
-            <a class="nav-link links" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link links" href="#skill">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link links" href="#project">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link links" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <div id="about" class="top-container">
-    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-    <h1>I'm Suleman.</h1>
-    <h2> a <span class="pro">pro</span>grammer.</h2>
-    <img class="bottom-cloud" src="images/cloud.png" alt="mountain-img">
-    <img src="images/mountain.png" alt="cloud-img">
-  </div>
-
-  <div class="middle-container">
-    <div class="profile">
-      <img class="MyImg" src="images\IMG-20200124-WA0003.jpg" alt="My Personal image">
-      <h2>Hi there.</h2>
-      <p class="intro">I am a Programmer and Web Developer also Software Engineering student.</p>
-    </div>
-
-    <hr>
-
-    <div id="skill" class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="img" src="http://yutingwang.me/images/gif/coding.gif" alt="GIF">
-        <h3>Design & Development</h3>
-        <p>I started learning to code at the age of 17 and have learned object oriented programming and advanced computer programming in various languages i-e java & c++. I have gained some experience in designing and developing webpages.</p>
-      </div>
-      <div class="skill-row">
-        <img class="chillies-img" src="images/chillies.png" alt="">
-        <h3>Hot Wings Challenge</h3>
-        <p>My another skill is actually in eating hot wings. I love hot wings challenges. Ghost Peppers and Calorina Reapers are my favourite snacks.</p>
-      </div>
-    </div>
-    <div class="fab-wrapper">
-      <input id="fabCheckbox" type="checkbox" class="fab-checkbox" />
-      <label class="fad" for="fabCheckbox">
-        <span class="fab-dots fab-dots-1"></span>
-        <span class="fab-dots fab-dots-2"></span>
-        <span class="fab-dots fab-dots-3"></span>
-      </label>
-      <div class="fab-wheel">
-        <a href="https://www.instagram.com/sulleman_malik/" class="fab-action fab-action-1">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="https://www.facebook.com/sulemanaslam01/" class="fab-action fab-action-2">
-          <i class="fab fa-facebook"></i>
-        </a>
-        <a href="https://mobile.twitter.com/sulleman_malik" class="fab-action fab-action-3">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="https://www.youtube.com/channel/UC4lFJ_AfuUFLhvd-7yQcq6Q" class="fab-action fab-action-4">
-          <i class="fab fa-youtube"></i>
-        </a>
-      </div>
-    </div>
-    <hr>
-    <div id="project" class="projects">
-      <h1 class="project-heading">Frontend projects</h1>
+  <main>
+    <header class="container">
       <div class="row">
-        <div class="col-lg-6 col-md-4 col-sm-12">
-          <div class="card" style="width: 20rem;">
-            <img src="images/tindog.JPG" class="card-img-top tindog-img" alt="tindog-image">
+        <div class="card-group">
+          <div class="card g-0 col-lg-4 col-md-6 first-card">
             <div class="card-body">
-              <h5 class="card-title">Tindog</h5>
-              <p class="card-text">You might have heard of tinder but have you heard of tindog?</p>
-              <a href="https://maliksulemanaslam.github.io/Tindog/" class="btn btn-outline-dark">Visit Site</a>
+              <img src="images/logo.svg" class="logo-image-mobile" alt="logo-image">
+              <picture>
+                <source media="(max-width: 768px)" srcset="images/hero-mobile.jpg" class="card-img-top" type="image/jpg">
+                <img src="images/hero-desktop.jpg" class="card-img-top" alt="hero-image" aria-hidden="true">
+              </picture>
             </div>
           </div>
-        </div>
-        <div class="col-lg-6 col-md-4 col-sm-12">
-          <div class="card" style="width: 20rem;">
-            <img src="images/Stats-preview.JPG" class="card-img-top stats-img" alt="Stats-preview-image">
-            <div class="card-body">
-              <h5 class="card-title">Stats Preview</h5>
-              <p class="card-text">Shows the statistics of achievements of a company.</p>
-              <a href="https://maliksulemanaslam.github.io/Stats-Preview-Component/" class="btn btn-outline-dark">Visit Site</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-4 col-sm-12">
-          <div class="card" style="width: 20rem;">
-            <img src="images/Simon-game.JPG" class="card-img-top simon-img" alt="Simon-game-image">
-            <div class="card-body">
-              <h5 class="card-title">Simon Game</h5>
-              <p class="card-text">A good game to test your memory skills, visit this site on a desktop.</p>
-              <a href="https://maliksulemanaslam.github.io/SimonGame/" class="btn btn-outline-dark">Visit Site</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-4 col-sm-12">
-          <div class="card" style="width: 20rem;">
-            <img src="images/order-summary.JPG" class="card-img-top order-img" alt="order-summary-image">
-            <div class="card-body">
-              <h5 class="card-title">Order Summary</h5>
-              <p class="card-text">A webpage which shows you about your purchasing order summary.</p>
-              <a href="https://maliksulemanaslam.github.io/order-summary-component/" class="btn btn-outline-dark">Visit Site</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-4 col-sm-12">
-          <div class="card" style="width: 20rem;">
-            <img src="images/3-column.JPG" class="card-img-top" alt="3-column-preview-image">
-            <div class="card-body">
-              <h5 class="card-title">3 Column preview</h5>
-              <p class="card-text">A combination of 3 cards in a row to show you about different kind of things i-e info about car types here.</p>
-              <a href="https://maliksulemanaslam.github.io/3-column-preview-card/" class="btn btn-outline-dark">Visit Site</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-4 col-sm-12">
-          <div class="card" style="width: 20rem;">
-            <img src="images/DrumKit.JPG" class="card-img-top Drumkit-img" alt="Drum-kit-image">
-            <div class="card-body">
-              <h5 class="card-title">Drum Kit</h5>
-              <p class="card-text">Tap on any drum you like and it will play sounds along with the animation.</p>
-              <a href="https://maliksulemanaslam.github.io/Drum-Kit/" class="btn btn-outline-dark">Visit Site</a>
+          <div class="card g-0 col-lg-12 col-md-6 second-card">
+            <div id="second-card-body" class="card-body">
+              <img src="images/logo.svg" class="logo-image" alt="logo-image">
+              <h1><span>We're</span> coming soon</h1>
+              <p>Hello fellow shoppers! We're currently building our new fashion store.
+                Add your email below to stay up-to-date with announcements and our launch deals.</p>
+              <div class="input-group mb-3">
+                <input id="text-input" type="text" class="form-control" id="validationServer01" placeholder="Email Address" aria-label="Email Address">
+                <div class="input-group-append">
+                  <button id="btn" class="btn btn-secondary" type="button"><img src="images/icon-arrow.svg" alt="arrow-image"> </button>
+                </div>
+              </div>
+              <p class="invalid-email hide">Please provide a valid email</p>
             </div>
           </div>
         </div>
       </div>
-
-
-    </div>
-
-
-
-
-
-
-    <div id="contact" class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>If you love hot wings as much as I do</h3>
-      <p class="contact">Let's talk about and get to know how awesome they are! We can code while we eat hot wings!</p>
-      <a class="btn btn-outline-info btn-lg" href="mailto:msullemanaslam@gmail.com">CONTACT ME</a>
-    </div>
-  </div>
-
-  <div class="bottom-container" class="col-md-12">
-    <p class="copyright">© 2021 Suleman Aslam. </p>
-  </div>
+    </header>
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://maliksulemanaslam.github.io/cv/">Suleman Aslam</a>.
+      </p>
+    </footer>
+  </main>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="javascript/script.js" charset="utf-8"></script>
-
+  <script src="javascript/script.js"></script>
 </body>
 
 </html>
