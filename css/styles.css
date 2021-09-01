@@ -99,7 +99,9 @@ a:hover {
 .ml-auto {
   margin-left: auto;
 }
-
+.btn{
+box-shadow: 0 1.3rem 1.5rem 0 rgb(216 226 236 / 70%);
+}
 .nav-item {
   margin-bottom: -1px;
 }
@@ -171,6 +173,7 @@ a:hover {
 
 .MyImg {
   width: 15%;
+  box-shadow: 0 1.3rem 1.5rem 0 rgb(216 226 236 / 70%);
 }
 
 .chillies-img {
@@ -438,6 +441,7 @@ a:hover {
   bottom: -1.5rem;
 }
 .card{
+  box-shadow: 0 1.3rem 1.5rem 0 rgb(216 226 236 / 70%);
   margin-bottom: 10%;
 }
 .row{
