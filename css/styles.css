@@ -54,8 +54,6 @@ a:hover {
   color: #EAF6F6;
 }
 
-.spinner-grow {}
-
 .sticky-top {
   position: sticky;
   top: 0;
@@ -229,11 +227,6 @@ box-shadow: 0 1.3rem 1.5rem 0 rgb(216 226 236 / 70%);
   margin: 0;
 }
 
-/* body{
-	font-family:Verdana, Geneva, sans-serif;
-	font-size:18px;
-	background-color:#CCC;
-} */
 .float {
   position: fixed;
   width: 60px;
@@ -440,7 +433,7 @@ box-shadow: 0 1.3rem 1.5rem 0 rgb(216 226 236 / 70%);
   bottom: -1.5rem;
 }
 .card{
-  box-shadow: 0 1.3rem 1.5rem 0 rgb(216 226 236 / 70%);
+  box-shadow: 10px 1.3rem 1.2rem 2px rgb(16 26 236 / 70%);
   margin-bottom: 10%;
 }
 .row{
