@@ -98,7 +98,7 @@ a:hover {
   margin-left: auto;
 }
 .btn{
-    box-shadow: 8px 1.5rem 1.5rem 5px rgb(103 23 85);
+  box-shadow: 0 1.3rem 1.5rem 0 rgb(216 226 236 / 70%);
 }
 .nav-item {
   margin-bottom: -1px;
@@ -433,7 +433,7 @@ a:hover {
   bottom: -1.5rem;
 }
 .card{
-  box-shadow: 10px 1.3rem 1.2rem 2px rgb(16 26 236 / 70%);
+  box-shadow: 8px 1.5rem 1.5rem 5px rgb(103 23 85);
   margin-bottom: 10%;
 }
 .row{
