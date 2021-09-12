@@ -14,48 +14,26 @@
 </head>
 
 <body>
-  <nav class="navbar smart-scroll navbar-expand-lg navbar-light">
-    <div class="container-fluid">
-      <div class="text-center">
-        <div class="spinner-grow first" role="status">
-          <span class="visually-hidden">Loading...</span>
-        </div>
-      </div>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav ml-auto">
-          <div class="text-center">
-            <div class="spinner-grow second" role="status">
-              <span class="visually-hidden">Loading...</span>
-            </div>
-          </div>
-          <a class="navbar-brand second" href="#">Suleman's Blog</a>
-          <li class="nav-item">
-            <a class="nav-link links" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link links" href="#skill">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link links" href="#project">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link links" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <div id="about" class="top-container">
-    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-    <h1>I'm Suleman.</h1>
-    <h2> a <span class="pro">pro</span>grammer.</h2>
-    <img class="bottom-cloud" src="images/cloud.png" alt="mountain-img">
-    <img src="images/mountain.png" alt="cloud-img">
+  <header>
+  <nav>
+    <input type="checkbox" id="active">
+      <label for="active" class="menu-btn"><span></span></label>
+      <label for="active" class="close"></label>
+      <div class="wrapper">
+        <ul>
+  <li><a href="#about">About</a></li>
+  <li><a href="#skill">Skills</a></li>
+  <li><a href="#project">Projects</a></li>
+  <li><a href="#contact">Contact</a></li>
+  </ul>
   </div>
+  </nav>
 
+  <div id="about" class="top-container">
+    <h1>I'm Suleman.</h1>
+    <h2 class="top-container-h2"> a <span class="pro">pro</span>grammer.</h2>
+  </div>
+</header>
   <div class="middle-container">
     <div class="profile slideanim">
       <img class="MyImg" src="images\IMG-20200124-WA0003.jpg" alt="My Personal image">
@@ -68,7 +46,7 @@
     <div id="skill" class="skills slideanim">
       <h2>My Skills.</h2>
       <div class="skill-row slideanim">
-        <img class="img" src="http://yutingwang.me/images/gif/coding.gif" alt="GIF">
+        <img class="img" src="images/coding.gif" alt="GIF">
         <h3>Design & Development</h3>
         <p>I started learning to code at the age of 17 and have learned object oriented programming and advanced computer programming in various languages i-e java & c++. I have gained some experience in designing and developing webpages.</p>
       </div>
