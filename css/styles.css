@@ -99,9 +99,11 @@ a:hover {
   /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%); */
   transition: all 0.3s ease-in-out;
 }
-.btn{
-  font-size: 1.5rem!important;
+
+.btn {
+  font-size: 1.5rem !important;
 }
+
 .menu-btn span,
 .menu-btn:before,
 .menu-btn:after {
@@ -572,18 +574,18 @@ header {
 }
 
 .fab-wheel .fab-action-2 {
-  right: 2.2rem;
-  top: -1rem;
+  right: 1.8rem;
+  top: -0.4rem;
 }
 
 .fab-wheel .fab-action-3 {
-  left: -1rem;
-  bottom: 3rem;
+  left: -0.5rem;
+  bottom: 0.8rem;
 }
 
 .fab-wheel .fab-action-4 {
   left: -2rem;
-  bottom: -1.5rem;
+  bottom: -3rem;
 }
 
 .card {
