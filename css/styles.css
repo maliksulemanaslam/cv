@@ -227,6 +227,7 @@ input[type="checkbox"] {
 }
 
 .intro {
+  font-size: 18px;
   width: 30%;
   margin: auto;
 }
@@ -267,6 +268,7 @@ header {
 }
 
 .skill-row {
+  font-size: 18px;
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
@@ -294,6 +296,7 @@ header {
 }
 
 .contact {
+  font-size: 18px;
   width: 40%;
   margin: 20px auto 60px auto;
 }
