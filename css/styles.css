@@ -393,7 +393,8 @@ header {
     opacity: 0.5;
     transform: translateY(-5%);
   }
-  100{
+
+  100 {
     opacity: 1;
     transform: translateY(0%);
   }
@@ -633,11 +634,54 @@ header {
 .projects {
   margin: 0;
   font-family: Helvetica, san-serif;
-  background: -webkit-linear-gradient(90deg, #00aaee 10%, #DD2476 90%);
-  /* Chrome 10+, Saf5.1+ */
-  background: -moz-linear-gradient(90deg, #00aaee 10%, #DD2476 90%);
+  background-size: 400% 400%;
+  -webkit-animation: AnimationName 18s ease infinite;
+  -moz-animation: AnimationName 18s ease infinite;
+  animation: AnimationName 18s ease infinite;
   /* FF3.6+ */
   padding-bottom: 100px;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 26%
+  }
+
+  50% {
+    background-position: 100% 75%
+  }
+
+  100% {
+    background-position: 0% 26%
+  }
+}
+
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 26%
+  }
+
+  50% {
+    background-position: 100% 75%
+  }
+
+  100% {
+    background-position: 0% 26%
+  }
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 26%
+  }
+
+  50% {
+    background-position: 100% 75%
+  }
+
+  100% {
+    background-position: 0% 26%
+  }
 }
 
 .square-flip {
@@ -791,7 +835,7 @@ header {
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 28px;
 }
 
 .square-flip h3 {
