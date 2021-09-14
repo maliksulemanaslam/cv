@@ -540,7 +540,9 @@ header {
   transform-origin: bottom right;
   transform: scale(0);
 }
-
+.fab{
+  font-size: 27px!important;
+}
 .fab-checkbox:checked~.fab-wheel {
   transform: scale(1);
 }
